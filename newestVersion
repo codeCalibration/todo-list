@@ -1,4 +1,9 @@
 //issue with button adding typed task - button does nothing.
+//Error Message after inspecting:
+/*
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+DevTools failed to load source map: Could not load content for chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/browser-polyfill.js.map: System error: net::ERR_FILE_NOT_FOUND
+*/
 
 import { getDefaultNormalizer } from '@testing-library/react';
 import './App.css';
